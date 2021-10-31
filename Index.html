@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>FUMEC Virtual - Sistema Moodle</title>
+    <link rel="image" href="img/favicon" type="image/x-icon">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <!-- Pure CSS  -->
+    <link rel="stylesheet" href="Styles.css" />
+    <!-- JS Bootstrap -->
+    <script src="JS/bootstrap.js" defer></script>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="container-fluid">
+        <header class="row" id="header">
+            <div id="logo-container">
+                <img src="IMG/LOGO1.png" alt="Logo da Fumec" id="logo">
+            </div>
+        </header>
+    </div>
+    <!-- END OF HEADER-->
+
+    <!-- FORM-->
+    <div class="container col-10 col-md-9" id="form-container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6" >  
+                <form>                    
+                    <!-- INIT. OF GROUPING --> 
+                    <fieldset>
+                        <h2><i class="bi bi-question-square"></i> Nova Dúvida </h2>
+                        <div class="form-floating mb-3">
+                            <label for="text" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" id="Nome" placeholder="Digite o seu nome.">
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <label for="text" class="form-label">Título</label>
+                            <input type="text" class="form-control" id="titulo">
+                        </div>
+
+                        <div class="mb-3">
+                            <Disciplina: for="text" class="form-label">Disciplina:</label>
+                            <input type="text" class="form-control" id="disciplina">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="content" class="form-label">Descrição:</label>
+                            <textarea class="form-control" rows="4"
+                             placeholder="Descreva a sua dúvida."></textarea>
+                        </div>
+
+                        <div>
+                            <input type="file" class="form-control" id="foto" multiple>
+                            <label for="foto" class="form-label">Envie arquivos somente quando necessário ou
+                            solicitado.</label>
+                        </div>
+                    </fieldset>
+                    <!-- END OF GROUPING --> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END OF FORM-->
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <div class="row justify-content-center" id="social-icons-container">
+            <div class="col-1">
+                <h6> 
+                    <a href="#"><i class="bi bi-arrow-left-circle-fill"></i></a>
+                    
+                </h6>
+            </div>
+                    
+            <div class="col-1">
+                <h6>
+                 
+                    <a href="#"><i class="bi bi-envelope"></i></a>
+                </h6>
+                
+            </div>              
+        </div>       
+    </footer>
+    <!-- END OF FOOTER -->
+    
+
+
+</body>
