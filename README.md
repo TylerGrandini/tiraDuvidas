@@ -3,12 +3,10 @@
 *  JavaScript.
 * Bootstrap 5.
 
-</br>
 
 ### Próximas correções:
 * Ajustes no grid.
 
-</br>
 
 ### Próximas atualizações:
 * Sombreamento do cabeçalho.
@@ -20,7 +18,6 @@
 * Inserção do botão "Minhas dúvidas".
 
 
-</br>
 
-Atualizações futuras:
+### Atualizações futuras:
 - Criação do back-end e Banco de Dados.
