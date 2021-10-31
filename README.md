@@ -20,4 +20,5 @@
 
 
 ### Atualizações futuras:
-- Criação do back-end e Banco de Dados.
+- Criação do back-end com PHP 7.
+- Criação do banco de dados com MySql.
